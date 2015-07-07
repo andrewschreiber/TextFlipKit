@@ -37,5 +37,6 @@ Each function can be called as a block, in case you want to flip long strings of
 ```
 ##Attributed Strings
 Flipped attributed strings maintain the attributes of each character
+
 ![alt tag](http://i.giphy.com/xTiTnoAvEaGz5fgEV2.gif)
 
