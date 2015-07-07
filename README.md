@@ -5,4 +5,11 @@
 ![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)
 
-An NSString and NSAttributedString category that makes it easy to flip and reverse text.
+An NSString and NSAttributedString category that makes it easy to flip and reverse text. Text can be added to text messages, emails, etc.
+
+##Usage
+```objective-c
+NSString *example = @"Example String";
+NSLog(@"'%@'", example.tfk_upsideDownAndReversed);
+//Prints 'ƃuᴉɹʇS ǝldɯɐxƎ'
+```
