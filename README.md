@@ -5,7 +5,7 @@
 ![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)
 
-An NSString and NSAttributedString category that makes it easy to flip and reverse text. Text can be added to text messages, emails, etc.
+An NSString and NSAttributedString category that makes it easy to flip and reverse text. Flipped text can be sent in text messages, emails, etc.
 
 ##Usage
 ```objective-c
@@ -40,3 +40,15 @@ Flipped attributed strings maintain the attributes of each character
 
 ![alt tag](http://i.giphy.com/xTiTnoAvEaGz5fgEV2.gif)
 
+##Requirements
+- ARC
+- iOS 4.0 or later
+
+##Installation
+You can either add the TextFlipKit.h TextFlipKit.m files to your project, or install via CocoaPods
+```objective-c
+pod 'TextFlipKit', '~> 0.1.0'
+```
+##Special thanks
+@somegeekintn on StackOverflow
+http://stackoverflow.com/questions/4158646/most-efficient-way-to-iterate-over-all-the-chars-in-an-nsstring
