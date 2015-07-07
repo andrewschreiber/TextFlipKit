@@ -52,4 +52,5 @@ pod 'TextFlipKit', '~> 0.1.0'
 ```
 ##Special thanks
 @somegeekintn on StackOverflow
+
 http://stackoverflow.com/questions/4158646/most-efficient-way-to-iterate-over-all-the-chars-in-an-nsstring
