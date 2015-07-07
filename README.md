@@ -9,7 +9,12 @@ An NSString and NSAttributedString category that makes it easy to flip and rever
 
 ##Usage
 ```objective-c
+#import TextFlipKit.h;
+
+-(void)foo
+{
 NSString *example = @"Example String";
 NSLog(@"'%@'", example.tfk_upsideDownAndReversed);
 //Prints 'ƃuᴉɹʇS ǝldɯɐxƎ'
+}
 ```
