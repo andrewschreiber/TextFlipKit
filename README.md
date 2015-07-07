@@ -11,10 +11,31 @@ An NSString and NSAttributedString category that makes it easy to flip and rever
 ```objective-c
 #import TextFlipKit.h;
 
--(void)foo
+- (void)foo
 {
-NSString *example = @"Example String";
-NSLog(@"'%@'", example.tfk_upsideDownAndReversed);
-//Prints 'ƃuᴉɹʇS ǝldɯɐxƎ'
+    NSString *example = @"Example String";
+    NSLog(@"'%@'", example.tfk_upsideDownAndReversed);
+    //Prints 'ƃuᴉɹʇS ǝldɯɐxƎ'. Looks normal upside down
+    
+    NSLog(@"'%@'",testString.tfk_upsideDown);
+    //Prints 'Ǝxɐɯdlǝ Sʇɹᴉuƃ'
+    
+    NSLog(@"'%@'",testString.tfk_reversed);
+    //Prints 'gnirtS elpmaxE'
 }
 ```
+Each function can be called as a block, in case you want to flip long strings off the main thread
+```objective-c
+- (void)bar
+{
+    NSString *completedWorksOfShakespeare = [NSString stringWithContentsOfFile:completedWorks encoding:NSASCIIStringEncoding error:nil];
+    [completedWorksOfShakespeare tfk_upsideDownAndReverseWithCompletionBlock:^(NSString *upsideDownAndReversed)
+    {
+        //Save to disk
+    }
+}
+```
+##Attributed Strings
+Flipped attributed strings maintain the attributes of each character
+![alt tag](http://i.giphy.com/xTiTnoAvEaGz5fgEV2.gif)
+
