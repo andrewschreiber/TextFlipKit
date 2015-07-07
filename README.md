@@ -25,7 +25,7 @@ An NSString and NSAttributedString category that makes it easy to flip and rever
     //Prints 'gnirtS elpmaxE'
 }
 ```
-Given 100,000 characters, it takes ~0.1 second to flip upside down, ~0.3 seconds to reverse, and ~0.4 seconds to flip and reverse. Each function can be called as a block, in case you want to flip long strings off the main thread
+Given a string of 100,000 characters, it takes ~0.1 second to flip upside down, ~0.3 seconds to reverse, and ~0.4 seconds to flip and reverse. Each function can be called as a block, in case you want to flip long strings off the main thread
 ```objective-c
 - (void)bar
 {
