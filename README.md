@@ -1,4 +1,4 @@
-![alt tag](http://i.imgur.com/64NgXlF.png)
+![alt tag](http://i.imgur.com/ZICWXfO.png)
 
 ![language](https://img.shields.io/badge/Language-Objective--C-8E44AD.svg)
 ![Version](https://img.shields.io/badge/Pod-%20v0.1.0%20-96281B.svg)
