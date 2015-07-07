@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4936734B1B4BA22A00B549C5 /* TextFlipKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4936734A1B4BA22A00B549C5 /* TextFlipKit.m */; };
+		4936734E1B4BA85700B549C5 /* TextFlipKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4936734D1B4BA85700B549C5 /* TextFlipKit.m */; };
 		49EC88FD1B47176400C2A6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC88FC1B47176400C2A6BA /* main.m */; };
 		49EC89001B47176400C2A6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC88FF1B47176400C2A6BA /* AppDelegate.m */; };
 		49EC89031B47176400C2A6BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC89021B47176400C2A6BA /* ViewController.m */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		493673491B4BA22A00B549C5 /* TextFlipKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFlipKit.h; sourceTree = "<group>"; };
-		4936734A1B4BA22A00B549C5 /* TextFlipKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFlipKit.m; sourceTree = "<group>"; };
+		4936734C1B4BA85700B549C5 /* TextFlipKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFlipKit.h; path = ../../TextFlipKit.h; sourceTree = "<group>"; };
+		4936734D1B4BA85700B549C5 /* TextFlipKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFlipKit.m; path = ../../TextFlipKit.m; sourceTree = "<group>"; };
 		49EC88F71B47176400C2A6BA /* TextFlipKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFlipKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EC88FB1B47176400C2A6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EC88FC1B47176400C2A6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,8 +63,6 @@
 		49EC88F91B47176400C2A6BA /* TextFlipKit */ = {
 			isa = PBXGroup;
 			children = (
-				493673491B4BA22A00B549C5 /* TextFlipKit.h */,
-				4936734A1B4BA22A00B549C5 /* TextFlipKit.m */,
 				49EC88FE1B47176400C2A6BA /* AppDelegate.h */,
 				49EC88FF1B47176400C2A6BA /* AppDelegate.m */,
 				49EC89011B47176400C2A6BA /* ViewController.h */,
@@ -80,6 +78,8 @@
 		49EC88FA1B47176400C2A6BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4936734C1B4BA85700B549C5 /* TextFlipKit.h */,
+				4936734D1B4BA85700B549C5 /* TextFlipKit.m */,
 				49EC89231B47202200C2A6BA /* CompletedWorksOfShakespeare.txt */,
 				49EC88FB1B47176400C2A6BA /* Info.plist */,
 				49EC88FC1B47176400C2A6BA /* main.m */,
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4936734B1B4BA22A00B549C5 /* TextFlipKit.m in Sources */,
+				4936734E1B4BA85700B549C5 /* TextFlipKit.m in Sources */,
 				49EC89031B47176400C2A6BA /* ViewController.m in Sources */,
 				49EC89001B47176400C2A6BA /* AppDelegate.m in Sources */,
 				49EC88FD1B47176400C2A6BA /* main.m in Sources */,
