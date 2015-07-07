@@ -45,7 +45,7 @@ Flipped attributed strings maintain the attributes of each character
 - iOS 4.0 or later
 
 ##Installation
-You can either add the TextFlipKit.h TextFlipKit.m files to your project, or install via CocoaPods
+You can either add the TextFlipKit.h and TextFlipKit.m files directly to your project, or install via CocoaPods
 ```objective-c
 pod 'TextFlipKit', '~> 0.1.0'
 ```
