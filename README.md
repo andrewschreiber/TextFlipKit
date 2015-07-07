@@ -25,7 +25,7 @@ An NSString and NSAttributedString category that makes it easy to flip and rever
     //Prints 'gnirtS elpmaxE'
 }
 ```
-Given a string of 100,000 characters, it takes ~0.1 second to flip upside down, ~0.3 seconds to reverse, and ~0.4 seconds to flip and reverse on an iPhone 6. Each function can be called as a block, in case you want to flip long strings off the main thread
+Given a string of 100,000 characters, it takes ~0.1 second to flip upside down, ~0.3 seconds to reverse, and ~0.4 seconds to flip and reverse on an iPhone 6. Each function can be called as a block, in case you want to flip long strings off the main thread.
 ```objective-c
 - (void)bar
 {
@@ -37,7 +37,7 @@ Given a string of 100,000 characters, it takes ~0.1 second to flip upside down, 
 }
 ```
 ##Attributed Strings
-Flipped attributed strings maintain the attributes of each character
+Flipped attributed strings maintain the attributes of each character.
 
 ![alt tag](http://i.giphy.com/xTiTnoAvEaGz5fgEV2.gif)
 
@@ -46,7 +46,7 @@ Flipped attributed strings maintain the attributes of each character
 - iOS 4.0 or later
 
 ##Installation
-You can either add the TextFlipKit.h and TextFlipKit.m files directly to your project, or install via CocoaPods
+You can either add the TextFlipKit.h and TextFlipKit.m files directly to your project, or install via CocoaPods.
 ```objective-c
 pod 'TextFlipKit', '~> 0.1.0'
 ```
