@@ -14,19 +14,8 @@
 		49EC89061B47176400C2A6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC89041B47176400C2A6BA /* Main.storyboard */; };
 		49EC89081B47176400C2A6BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EC89071B47176400C2A6BA /* Images.xcassets */; };
 		49EC890B1B47176400C2A6BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EC89091B47176400C2A6BA /* LaunchScreen.xib */; };
-		49EC89171B47176400C2A6BA /* TextFlipKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC89161B47176400C2A6BA /* TextFlipKitTests.m */; };
 		49EC89241B47202200C2A6BA /* CompletedWorksOfShakespeare.txt in Resources */ = {isa = PBXBuildFile; fileRef = 49EC89231B47202200C2A6BA /* CompletedWorksOfShakespeare.txt */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		49EC89111B47176400C2A6BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49EC88EF1B47176400C2A6BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49EC88F61B47176400C2A6BA;
-			remoteInfo = TextFlipKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		493673491B4BA22A00B549C5 /* TextFlipKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFlipKit.h; sourceTree = "<group>"; };
@@ -41,21 +30,11 @@
 		49EC89051B47176400C2A6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49EC89071B47176400C2A6BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		49EC890A1B47176400C2A6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		49EC89101B47176400C2A6BA /* TextFlipKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFlipKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49EC89151B47176400C2A6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49EC89161B47176400C2A6BA /* TextFlipKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFlipKitTests.m; sourceTree = "<group>"; };
 		49EC89231B47202200C2A6BA /* CompletedWorksOfShakespeare.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CompletedWorksOfShakespeare.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49EC88F41B47176400C2A6BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49EC890D1B47176400C2A6BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				49EC88F91B47176400C2A6BA /* TextFlipKit */,
-				49EC89131B47176400C2A6BA /* TextFlipKitTests */,
 				49EC88F81B47176400C2A6BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				49EC88F71B47176400C2A6BA /* TextFlipKit.app */,
-				49EC89101B47176400C2A6BA /* TextFlipKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +87,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		49EC89131B47176400C2A6BA /* TextFlipKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				49EC89161B47176400C2A6BA /* TextFlipKitTests.m */,
-				49EC89141B47176400C2A6BA /* Supporting Files */,
-			);
-			path = TextFlipKitTests;
-			sourceTree = "<group>";
-		};
-		49EC89141B47176400C2A6BA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				49EC89151B47176400C2A6BA /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,24 +107,6 @@
 			productReference = 49EC88F71B47176400C2A6BA /* TextFlipKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		49EC890F1B47176400C2A6BA /* TextFlipKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 49EC891D1B47176400C2A6BA /* Build configuration list for PBXNativeTarget "TextFlipKitTests" */;
-			buildPhases = (
-				49EC890C1B47176400C2A6BA /* Sources */,
-				49EC890D1B47176400C2A6BA /* Frameworks */,
-				49EC890E1B47176400C2A6BA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				49EC89121B47176400C2A6BA /* PBXTargetDependency */,
-			);
-			name = TextFlipKitTests;
-			productName = TextFlipKitTests;
-			productReference = 49EC89101B47176400C2A6BA /* TextFlipKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +118,6 @@
 				TargetAttributes = {
 					49EC88F61B47176400C2A6BA = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					49EC890F1B47176400C2A6BA = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 49EC88F61B47176400C2A6BA;
 					};
 				};
 			};
@@ -197,7 +135,6 @@
 			projectRoot = "";
 			targets = (
 				49EC88F61B47176400C2A6BA /* TextFlipKit */,
-				49EC890F1B47176400C2A6BA /* TextFlipKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,13 +148,6 @@
 				49EC89241B47202200C2A6BA /* CompletedWorksOfShakespeare.txt in Resources */,
 				49EC890B1B47176400C2A6BA /* LaunchScreen.xib in Resources */,
 				49EC89081B47176400C2A6BA /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49EC890E1B47176400C2A6BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,23 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49EC890C1B47176400C2A6BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49EC89171B47176400C2A6BA /* TextFlipKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		49EC89121B47176400C2A6BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49EC88F61B47176400C2A6BA /* TextFlipKit */;
-			targetProxy = 49EC89111B47176400C2A6BA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		49EC89041B47176400C2A6BA /* Main.storyboard */ = {
@@ -375,40 +289,6 @@
 			};
 			name = Release;
 		};
-		49EC891E1B47176400C2A6BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TextFlipKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFlipKit.app/TextFlipKit";
-			};
-			name = Debug;
-		};
-		49EC891F1B47176400C2A6BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TextFlipKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFlipKit.app/TextFlipKit";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,15 +306,6 @@
 			buildConfigurations = (
 				49EC891B1B47176400C2A6BA /* Debug */,
 				49EC891C1B47176400C2A6BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49EC891D1B47176400C2A6BA /* Build configuration list for PBXNativeTarget "TextFlipKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49EC891E1B47176400C2A6BA /* Debug */,
-				49EC891F1B47176400C2A6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
